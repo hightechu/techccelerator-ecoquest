@@ -38,3 +38,4 @@ The project uses the [MIT LICENSE](https://choosealicense.com/licenses/mit/).
 <!-- You will want modify the authors list below to include all contributing team members. -->
 
 - [@hightechu](https://github.com/hightechu)
+- Kiara
