@@ -34,6 +34,9 @@ Please adhere to this project's [`code of conduct`](CODE_OF_CONDUCT.md).
 The project uses the [MIT LICENSE](https://choosealicense.com/licenses/mit/).
 
 ## Authors
+Erick
+
+
 
 <!-- You will want modify the authors list below to include all contributing team members. -->
 
