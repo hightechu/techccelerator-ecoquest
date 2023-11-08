@@ -25,3 +25,11 @@ code {
 .custom-class {
   color: red;
 }
+
+.center-text {
+  text-align: center;
+}
+
+.bg-clr{
+  background-color: #219C90;
+}
