@@ -17,6 +17,7 @@ import UserHome from "./components/UserHome";
 import About from "./components/About";
 import App from './App';
 import AddDataSample from './components/AddDataSample';
+import TitleScreen from './components/TitleScreen';
 
 import Navigation from "./components/Navigation";
 
@@ -36,6 +37,7 @@ root.render(
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/adddatasample' element={<AddDataSample/>}/>
+            <Route path='/TitleScreen' element={<TitleScreen/>}/>
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,

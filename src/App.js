@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 
 // Import any components that you want to use, like the login form
 import Login from './components/Login'; 
+import Logo from './components/Logo';
 
 // function must have the same name as the file, cAsE sEnSiTiVe
 function App() {
@@ -19,7 +20,12 @@ function App() {
           }
         });    
   }, [navigate])
- 
+  const PressMe = () => {
+    alert("Thank you!");
+  }
+  const DontPressMe = () => {
+    alert("I told you not to!")
+  }
   // HTML rendered here
   // Inside the return statement, we MUST have <div> tags at the beginning and end. 
   // We can choose to write vanilla HTML as normal, or use some of our React components. Here, I used Login
@@ -29,6 +35,8 @@ function App() {
         <p>
           This is the frontpage of your app. It's a good place to put a greeting message and your login form, if you choose to have authenticated users.
         </p>
+        <button class="btn btn-success btn-lg" onClick={PressMe}>Press Me</button>
+        <button class="btn btn-danger btn-sm" onClick={DontPressMe}>Don't Press Me</button>
         <Login />
     </div>
   );
