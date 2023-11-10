@@ -20,6 +20,7 @@ import AddDataSample from './components/AddDataSample';
 import TitleScreen from './components/TitleScreen';
 
 import Navigation from "./components/Navigation";
+import GameOverScreen from 'components/GameOverScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,6 +33,7 @@ root.render(
     <BrowserRouter>
         < Navigation />
         <Routes>
+        <Route path='/GameOverScreen' element={<GameOverScreen/>}/>
             <Route exact path='/' element={<App/>}/>
             <Route exact path='/home' element={<UserHome/>}/>
             <Route path='/signup' element={<Signup/>}/>

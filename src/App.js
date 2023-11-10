@@ -6,6 +6,8 @@ import { useEffect } from 'react';
 // Import any components that you want to use, like the login form
 import Login from './components/Login'; 
 import Logo from './components/Logo';
+import TestComponent from './components/TestComponent';
+import Footer from './components/Footer';
 
 // function must have the same name as the file, cAsE sEnSiTiVe
 function App() {
@@ -20,26 +22,32 @@ function App() {
           }
         });    
   }, [navigate])
-  const PressMe = () => {
-    alert("Thank you!");
-  }
-  const DontPressMe = () => {
-    alert("I told you not to!")
+  const shoot = () => {
+    alert("Nice!");
+    console.log("Main Button Was Clicked!");
   }
   // HTML rendered here
   // Inside the return statement, we MUST have <div> tags at the beginning and end. 
   // We can choose to write vanilla HTML as normal, or use some of our React components. Here, I used Login
   return (
     <div className="container-fluid">
-        <h1>Hello World</h1>
+        <h1>Hello World!</h1>
         <p>
-          This is the frontpage of your app. It's a good place to put a greeting message and your login form, if you choose to have authenticated users.
+          Welcome! This is my page, log in to explore.
         </p>
         <button class="btn btn-success btn-lg" onClick={PressMe}>Press Me</button>
         <button class="btn btn-danger btn-sm" onClick={DontPressMe}>Don't Press Me</button>
         <Login />
+        <TestComponent />
+        <Footer />
     </div>
   );
 }
- 
+
+
+
+
+
+
+
 export default App;
