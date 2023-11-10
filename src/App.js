@@ -5,6 +5,8 @@ import { useEffect } from 'react';
 
 // Import any components that you want to use, like the login form
 import Login from './components/Login'; 
+import TestComponent from './components/TestComponent';
+import Footer from './components/Footer';
 
 // function must have the same name as the file, cAsE sEnSiTiVe
 function App() {
@@ -30,6 +32,8 @@ function App() {
           This is the frontpage of your app. It's a good place to put a greeting message and your login form, if you choose to have authenticated users.
         </p>
         <Login />
+        <TestComponent />
+        <Footer />
     </div>
   );
 }
