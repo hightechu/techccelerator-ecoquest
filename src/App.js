@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 
 // Import any components that you want to use, like the login form
 import Login from './components/Login'; 
+import Logo from './components/Logo';
 import TestComponent from './components/TestComponent';
 import Footer from './components/Footer';
 
@@ -34,6 +35,8 @@ function App() {
         <p>
           Welcome! This is my page, log in to explore.
         </p>
+        <button class="btn btn-success btn-lg" onClick={PressMe}>Press Me</button>
+        <button class="btn btn-danger btn-sm" onClick={DontPressMe}>Don't Press Me</button>
         <Login />
         <TestComponent />
         <Footer />

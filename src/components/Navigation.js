@@ -20,6 +20,9 @@ const Navigation = () => {
                     <li className="nav-item">
                         <a className="nav-link" href="/">Support us</a>
                     </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/TitleScreen">TitleScreen</a>
+                    </li>
                     </ul>
                 </div>
             </nav>

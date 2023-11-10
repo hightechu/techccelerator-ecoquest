@@ -16,6 +16,21 @@ code {
   padding: 1.5rem;
   text-align: center;
 }
+.title {
+  font-size: 3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+}
+.title h1{
+  color: seagreen;
+}
+.bt12{
+  display: flex;
+  flex-direction: row;
+}
 .navbar {
   padding: 0.5rem;
 }
@@ -35,6 +50,18 @@ code {
   color: red;
 }
 
+
+  /* button {
+    background-color: #a3ff8f; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+} */
 /*
 .container-fluid {
   font-size: 68.9876679478349034784989809809848032840928340928049832048092px;
