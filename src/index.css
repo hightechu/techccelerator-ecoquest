@@ -35,9 +35,18 @@ code {
   color: red;
 }
 
+/*
 .container-fluid {
   font-size: 68.9876679478349034784989809809848032840928340928049832048092px;
   text-align: left;
   padding: 50px, 0;
 }
+*/
 
+.center-text {
+  text-align: center;
+}
+
+.bg-clr{
+  background-color: #219C90;
+}
