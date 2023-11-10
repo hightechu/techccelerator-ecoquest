@@ -19,12 +19,29 @@ code {
 .navbar {
   padding: 0.5rem;
 }
-
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
 /* DEVELOPERS ADD CUSTOM CSS BELOW */
 
 .custom-class {
   color: red;
 }
+
+/*
+.container-fluid {
+  font-size: 68.9876679478349034784989809809848032840928340928049832048092px;
+  text-align: left;
+  padding: 50px, 0;
+}
+*/
 
 .center-text {
   text-align: center;
