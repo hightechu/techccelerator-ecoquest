@@ -35,8 +35,6 @@ function App() {
         <p>
           Welcome! This is my page, log in to explore.
         </p>
-        <button class="btn btn-success btn-lg" onClick={PressMe}>Press Me</button>
-        <button class="btn btn-danger btn-sm" onClick={DontPressMe}>Don't Press Me</button>
         <Login />
         <TestComponent />
         <Footer />

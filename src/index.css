@@ -1,4 +1,8 @@
 /* FIXES */
+@font-face {
+  font-family: arcadeclassic;
+  src: url(arcadeclassic/ARCADECLASSIC.TTF);
+}
 
 body {
   margin: 0;
@@ -22,15 +26,20 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 200px;
+}
+.title h2{
+  color: seagreen;
+  font-size: 5rem;
+  margin-top:100px;
+  font-weight: bold;
 }
 .title h1{
   color: seagreen;
+  font-size: 6rem;
+  margin-top: -40px;
+  font-weight: bold;
 }
-.bt12{
-  display: flex;
-  flex-direction: row;
-}
+
 .navbar {
   padding: 0.5rem;
 }
@@ -45,6 +54,16 @@ code {
   font-size: 15px;
 }
 /* DEVELOPERS ADD CUSTOM CSS BELOW */
+
+.buttontitle{
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: 0;
+  color:black;
+  font-size: 2rem;
+  font-family: arcadeclassic;
+}
 
 .custom-class {
   color: red;
