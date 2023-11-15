@@ -12,7 +12,7 @@ const Navigation = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="/">Food Labels</a>
+                        <a className="nav-link" href="/FoodLabels">Food Labels</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/about">Importance</a>

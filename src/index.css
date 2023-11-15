@@ -74,6 +74,29 @@ code {
   text-align: center;
 }
 
+.bg-clrpls{
+  background-color: rgb(255, 234, 209);
+
+}
+
 .bg-clr{
   background-color: #219C90;
 }
+
+.useby-clr{
+  background-color: rgb(40, 240, 177);
+}
+
+.sellby-clr{
+  background-color: rgb(255, 187, 0);
+}
+
+.bbf-clr{
+  background-color: rgb(255, 154, 126)
+}
+
+.exp-clr{
+  background-color: rgb(191, 166, 255);
+}
+
+
