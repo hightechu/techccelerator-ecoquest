@@ -73,7 +73,9 @@ code {
 .center-text {
   text-align: center;
 }
-
+.container-fluid {
+  padding-bottom: 100%;
+}
 .bg-clrpls{
   background-color: rgb(255, 234, 209);
 
@@ -99,4 +101,23 @@ code {
   background-color: rgb(191, 166, 255);
 }
 
+.imgsize{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 30%;
+}
 
+.carousel-caption {
+  top: 43px;
+  bottom: auto;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }

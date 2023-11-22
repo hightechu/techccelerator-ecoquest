@@ -1,11 +1,15 @@
 import React from 'react';
+import usebyimg from '../images/useby.jpg';
+import sellbyimg from '../images/sellby.jpg';
+import bbfimg from '../images/bbf.jpg';
+import expimg from '../images/exp.jpg';
 
  const FoodLabels = () => {
 
   return (
-    <div className = "bg-clrpls">
-    <section className = "bg-clrpls">
-    <div className="container-fluid">        
+    // for Me: Maybe style the container-fluid?
+
+    <div className="container-fluid bg-clrpls">        
        <h1><u>Food Labels</u></h1>
        <p>
         <a className="btn m-3 useby-clr btn-light" data-bs-toggle="collapse" href="#Useby" role="button" aria-expanded="false" aria-controls="Useby">
@@ -25,7 +29,8 @@ import React from 'react';
         <div className="collapse " id="Useby">
         <div className="card card-body">
         <h6>Use By:</h6>
-        You can cook and eat food until midnight on the use-by date shown on a product, but not after. The last date recommended for the use of the product while at peak quality.
+        You can cook and eat food until midnight on the use-by date shown on a product, but not after. It is the last date recommended for the use of the product while at peak quality.
+        <img src={usebyimg} class="rounded imgsize" alt=" use by image" />
         </div>
         </div>
         {/* Sell by */}
@@ -33,6 +38,7 @@ import React from 'react';
         <div className="card card-body mt-4">
         <h6>Sell By:</h6>
         Tells the store how long to display the product for sale for inventory management.
+        <img src={sellbyimg} class="rounded imgsize" alt=" sell by image" />
         </div>
         </div>
         {/* Best Before */}
@@ -40,6 +46,7 @@ import React from 'react';
         <div className="card card-body mt-4">
         <h6>Best Before (BBF):</h6>
         Indicates when a product will be of best flavor or quality. 
+        <img src={bbfimg} class="rounded imgsize" alt=" bbf image" />
         </div>
         </div>
         {/* Exp  */}
@@ -47,14 +54,13 @@ import React from 'react';
         <div className="card card-body mt-4">
         <h6>Expiration Date (Exp):</h6>
         The date after which a product should not be sold or used because of an expected decline in quality or effectiveness. 
+        <img src={expimg} class="rounded imgsize"alt=" exp image" />
         </div>
         </div>
 
     </div>
-    </section>
-    <section className = "bg-clrpls">
-    </section>
-    </div>
+
+
   )
 
 }

@@ -23,6 +23,7 @@ import FoodLabels from './components/FoodLabels';
 import Navigation from "./components/Navigation";
 import GameOverScreen from 'components/GameOverScreen';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Rendering your app...
@@ -42,6 +43,7 @@ root.render(
             <Route path='/adddatasample' element={<AddDataSample/>}/>
             <Route path='/TitleScreen' element={<TitleScreen/>}/>
             <Route path='/FoodLabels' element={<FoodLabels/>}/>
+
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,
