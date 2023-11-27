@@ -1,10 +1,76 @@
-import React from 'react';
+import React, {useState} from 'react';
 import usebyimg from '../images/useby.jpg';
 import sellbyimg from '../images/sellby.jpg';
 import bbfimg from '../images/bbf.jpg';
 import expimg from '../images/exp.jpg';
 
  const FoodLabels = () => {
+
+    //Properties
+
+    const [showFinal, setFinal] = useState(false);
+    const [score, setScore] = useState(0);
+    const [currentQuestion, setCurrentQuestion] = useState(2);
+
+    const questions = [
+        {
+          text: "Tells when a product will be of best flavor or quality",
+          options: [
+            { id: 0, text: "Use-by", isCorrect: false },
+            { id: 1, text: "Sell-by", isCorrect: false },
+            { id: 2, text: "Best Before", isCorrect: true },
+            { id: 3, text: "Exp", isCorrect: false },
+          ],
+        },
+        {
+          text: "Tells the store how long to display the product for sale",
+          options: [
+            { id: 0, text: "Use-by", isCorrect: false },
+            { id: 1, text: "Sell-by", isCorrect: true },
+            { id: 2, text: "Best Before", isCorrect: false },
+            { id: 3, text: "Exp", isCorrect: false },
+          ],
+        },
+        {
+          text: "The date after which a product should not be sold or used because of an expected decline in quality",
+          options: [
+            { id: 0, text: "Use-by", isCorrect: false },
+            { id: 1, text: "Sell-by", isCorrect: false },
+            { id: 2, text: "Best Before", isCorrect: false },
+            { id: 3, text: "Exp", isCorrect: true },
+          ],
+        },
+        {
+          text: "Use By",
+          options: [
+            { id: 0, text: "Can't cook as soon as the date approach", isCorrect: false },
+            { id: 1, text: "Can use until midnight of the date, but not after", isCorrect: true },
+            { id: 2, text: "Last date to display in store", isCorrect: false },
+            { id: 3, text: "Can use until 1 week after", isCorrect: false },
+          ],
+        },
+      ];
+
+    //Helper functions
+
+    const optionClicked = (isCorrect) => {
+        if(isCorrect) {
+            setScore(score + 1);
+        }
+        if(currentQuestion + 1 < questions.length){
+            setCurrentQuestion(currentQuestion + 1)
+        }
+        else{
+            setFinal(true);
+        }
+    }
+
+    const restartGame = () => {
+        setScore(0);
+        setCurrentQuestion(0);
+        setFinal(false);
+    }
+
 
   return (
     // for Me: Maybe style the container-fluid?
@@ -57,6 +123,42 @@ import expimg from '../images/exp.jpg';
         <img src={expimg} class="rounded imgsize"alt=" exp image" />
         </div>
         </div>
+        <div className='boxx'>
+        <h1>Test your knowledge!</h1>
+        <h2>Current Score: {score}</h2>
+
+        {showFinal ? 
+        /* final results */
+        <div className = "finalresults">
+            <h1>Final Results</h1>
+            <h2>
+                {score} out of {questions.length} correct - ({(score/questions.length) * 100}%)
+            </h2>
+            <a onClick={() => restartGame()} className="btn btn-warning">Restart game</a>
+        </div>
+        
+        :
+
+        /* Question card */
+        <div className='question-card'>
+            <h2>Question {currentQuestion + 1} out of {questions.length}</h2>
+            <h3 className='question-text'>{questions[currentQuestion].text}</h3>
+
+            <ul className = "quizul">
+            {questions[currentQuestion].options.map((option) => {
+              return (
+                <li onClick={() => optionClicked(option.isCorrect)} key={option.id} className='quizli'>
+                  {option.text}
+                </li>
+              );
+            })}
+
+          </ul>
+        </div>
+        }
+        </div>
+
+
 
     </div>
 
