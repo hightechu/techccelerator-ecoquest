@@ -18,9 +18,11 @@ import About from "./components/About";
 import App from './App';
 import AddDataSample from './components/AddDataSample';
 import TitleScreen from './components/TitleScreen';
+import FoodLabels from './components/FoodLabels';
 
 import Navigation from "./components/Navigation";
 import GameOverScreen from 'components/GameOverScreen';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -40,6 +42,8 @@ root.render(
             <Route path='/about' element={<About/>}/>
             <Route path='/adddatasample' element={<AddDataSample/>}/>
             <Route path='/TitleScreen' element={<TitleScreen/>}/>
+            <Route path='/FoodLabels' element={<FoodLabels/>}/>
+
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,
