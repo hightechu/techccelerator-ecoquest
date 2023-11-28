@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Logo from './components/Logo';
 import TestComponent from './components/TestComponent';
 import Footer from './components/Footer';
+import FoodLabels from "./components/FoodLabels";
 
 // function must have the same name as the file, cAsE sEnSiTiVe
 function App() {
@@ -35,7 +36,6 @@ function App() {
         <p>
           Welcome! This is my page, log in to explore.
         </p>
-
         <Login />
         <TestComponent />
         <Footer />

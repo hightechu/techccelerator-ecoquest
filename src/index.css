@@ -73,7 +73,109 @@ code {
 .center-text {
   text-align: center;
 }
+.container-fluid {
+  padding-bottom: 100%;
+}
+.bg-clrpls{
+  background-color: rgb(255, 234, 209);
+
+}
 
 .bg-clr{
   background-color: #219C90;
 }
+
+.useby-clr{
+  background-color: rgb(40, 240, 177);
+}
+
+.sellby-clr{
+  background-color: rgb(255, 187, 0);
+}
+
+.bbf-clr{
+  background-color: rgb(255, 154, 126)
+}
+
+.exp-clr{
+  background-color: rgb(191, 166, 255);
+}
+
+.imgsize{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 30%;
+}
+
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
+
+ .psizes{
+  font-size: 30px;
+ }
+
+ .carousel-caption{
+  margin-bottom: 170px;
+ }
+
+ .btn-light{
+  padding: 30px 60px;
+  font-size: 30px;
+  border-radius: 10px;
+ }
+
+ .question-card{
+  background-color: rgb(39, 42, 41);
+  border-radius: 16px;
+  color: rgb(237, 220, 220);
+  margin: 0 auto;
+  padding: 17px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  width: 80%;
+  height: auto
+ }
+ .quizul {
+  list-style: none;
+ }
+ .quizli{
+  background-color:  rgb(95, 95, 95);
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+ }
+
+ .question-text{
+  color: rgb(255, 197, 197);
+ }
+
+ .finalresults{
+  background-color: rgb(39, 42, 41);
+  border-radius: 16px;
+  color: rgb(237, 220, 220);
+  margin: 0 auto;
+  padding: 17px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  width: 50%;
+  height: auto
+ }
+
+ .boxx{
+  margin-top: 60px;
+  background-color: rgb(255, 224, 224);
+  padding: 17px;
+  border-radius: 18px;
+  border: 3px solid white;
+ }
