@@ -19,6 +19,7 @@ import App from './App';
 import AddDataSample from './components/AddDataSample';
 import TitleScreen from './components/TitleScreen';
 import FoodLabels from './components/FoodLabels';
+import SupportUs from './components/SupportUs';
 
 import Navigation from "./components/Navigation";
 import GameOverScreen from 'components/GameOverScreen';
@@ -43,6 +44,7 @@ root.render(
             <Route path='/adddatasample' element={<AddDataSample/>}/>
             <Route path='/TitleScreen' element={<TitleScreen/>}/>
             <Route path='/FoodLabels' element={<FoodLabels/>}/>
+            <Route path='/SupportUs' element={<SupportUs/>}/>
 
         </Routes>
     </BrowserRouter>
