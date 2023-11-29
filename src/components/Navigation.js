@@ -24,8 +24,9 @@ const Navigation = () => {
                         <a className="nav-link" href="/TitleScreen">TitleScreen</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/Game">Game</a>
+                        <a className="nav-link" href="/DragDropGame">Game</a>
                     </li>
+                    
                     </ul>
                 </div>
             </nav>

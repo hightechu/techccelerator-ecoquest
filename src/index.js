@@ -22,6 +22,8 @@ import FoodLabels from './components/FoodLabels';
 
 import Navigation from "./components/Navigation";
 import GameOverScreen from 'components/GameOverScreen';
+import DragDropGame from 'components/DragDropGame';
+import DndGameInside from 'components/DndGameInside';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,13 +38,17 @@ root.render(
         < Navigation />
         <Routes>
         <Route path='/GameOverScreen' element={<GameOverScreen/>}/>
-            <Route exact path='/' element={<App/>}/>
+            <Route exact path='/' element={<TitleScreen/>}/>
             <Route exact path='/home' element={<UserHome/>}/>
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/adddatasample' element={<AddDataSample/>}/>
             <Route path='/TitleScreen' element={<TitleScreen/>}/>
             <Route path='/FoodLabels' element={<FoodLabels/>}/>
+            <Route path='/DragDropGame' element={<DragDropGame/>}/>
+            <Route path='/DndGameInside' element={<DndGameInside/>}/>
+
+            
 
         </Routes>
     </BrowserRouter>
