@@ -82,7 +82,7 @@ code {
 }
 
 .bg-clr{
-  background-color: #219C90;
+  background-color: rgb(71, 202, 176);
 }
 
 .useby-clr{
@@ -91,6 +91,12 @@ code {
 
 .sellby-clr{
   background-color: rgb(255, 187, 0);
+}
+
+.footerlink{
+  color: rgb(255, 235, 168);
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .bbf-clr{
