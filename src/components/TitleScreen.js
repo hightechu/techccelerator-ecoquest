@@ -1,11 +1,10 @@
 import React from 'react';
-
+import EcoLogo from '../../src/images/EcoQuest.png'
  const About = () => {
 
   return (
     <div className="container-fluid title">
-      <h2>Game</h2>    
-       <h1>Name</h1>
+      <img src={EcoLogo} className="EcoLogo" alt='EcoLogo'/>
         <p>
           
         </p>
