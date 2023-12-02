@@ -1,4 +1,5 @@
 import React from 'react'
+//import fridgeim from '../images/fridgeim.png'
 
 
 export default function Fridge({ black, children }) {
@@ -7,8 +8,7 @@ export default function Fridge({ black, children }) {
 
   return (
   <div 
-  style={{ 
-    backgroundColor: fill, 
+  style={{  
     color: stroke,
     width: '100%',
     height: '100%'

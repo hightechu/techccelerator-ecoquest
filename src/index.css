@@ -18,6 +18,7 @@ code {
 }
 .container-fluid {
   padding: 1.5rem;
+  padding-bottom: 10%;
   text-align: center;
 }
 .title {
@@ -26,6 +27,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: beige;
 }
 .title h2{
   color: seagreen;
@@ -92,9 +94,7 @@ code {
 .center-text {
   text-align: center;
 }
-.container-fluid {
-  padding-bottom: 100%;
-}
+
 .bg-clrpls{
   background-color: rgb(255, 234, 209);
 
@@ -113,7 +113,7 @@ code {
 }
 
 .footerlink{
-  color: rgb(255, 235, 168);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 20px;
 }
@@ -134,7 +134,9 @@ code {
   width: 30%;
 }
 
-
+.GO{
+  margin-top: 70px;
+}
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -206,5 +208,63 @@ code {
  }
 
  .milksize{
-  width: 102px;
+  width: 100px;
+  background: 'transparent'
  }
+
+ .containercolor{
+  background-color: rgb(231, 231, 255);
+  width: 1200px;
+ }
+
+ #left{
+  width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed #000000;
+  float: left;
+ }
+ #right{
+  width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed #000000;
+  float: right;
+ }
+
+ .react-dnd-drag-preview {
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+}
+
+.score{
+  text-align: center;
+  margin-top: 10px;
+}
+.time{
+  float: right;
+  margin-right: 20px;
+  font-size: 22px;
+  color: chocolate;
+  font-weight: bold;
+}
+.buttn{
+  background-color: rgb(24, 225, 191) ; 
+  border: none;
+  color: rgb(49, 38, 38);
+  padding: 12px 22px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.dope{
+  font-size: 21px;
+}
+

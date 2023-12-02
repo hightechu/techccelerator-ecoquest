@@ -1,20 +1,20 @@
-import React from 'react';
-import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
-import DndGameInside from './DndGameInside';
+// import React from 'react';
+// import { DndProvider } from "react-dnd";
+// import { HTML5Backend } from "react-dnd-html5-backend";
+// import DndGameInside from './DndGameInside';
 
- const DragDropGame = () => {
+//  const DragDropGame = () => {
 
-  return (
-    <DndProvider backend={HTML5Backend}>
-    <div className="container-fluid">
-        <h1>testsddf</h1>
-        <DndGameInside>
+//   return (
+//     <DndProvider backend={HTML5Backend}>
+//     <div className="container-fluid">
+//         <h1>testsddf</h1>
+//         <DndGameInside>
             
-        </DndGameInside>
-    </div> 
-    </DndProvider>
-  )
- }
+//         </DndGameInside>
+//     </div> 
+//     </DndProvider>
+//   )
+//  }
 
- export default DragDropGame;
+//  export default DragDropGame;
