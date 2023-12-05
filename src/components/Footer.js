@@ -10,13 +10,14 @@ const Footer = () => {
                     <i class="fas fa-gem me-3"></i>support us
                 </h2>
                 <p>
-                    Please donate here is link:
+                    Donation Link: 
                 </p>
+                    <a href="/" className="footerlink">Donate Now!</a>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
                 <h6 class="text-uppercase fw-bold mb-4">
-                    Other links
+                    Link to food waste support websites
                 </h6>
                 <p>
                     <a href="#!" class="text-reset">link1</a>

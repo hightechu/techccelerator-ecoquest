@@ -1,10 +1,12 @@
+import React from 'react';
+
 const Navigation = () => {
     return (
         
         <div>
 
             <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "#60beb5"}}>
-                <a className="navbar-brand" href="/">My Awesome App Name</a>
+                <a className="navbar-brand" href="/">EcoQuest</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -20,9 +22,8 @@ const Navigation = () => {
                     <li className="nav-item">
                         <a className="nav-link" href="/SupportUs">Support us</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/TitleScreen">TitleScreen</a>
-                    </li>
+
+                    
                     </ul>
                 </div>
             </nav>
