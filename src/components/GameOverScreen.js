@@ -10,11 +10,11 @@ import { Outlet, Link } from "react-router-dom";
   return (
     
 
-    <div className="container-fluid">     
+    <div className="container-fluid title">     
    
-            <div className="GO!"></div>
+        <div className="GO"></div>
         <p>Game Over!</p>  
-        <button><Link to="/UserHome">Restart</Link></button> 
+        <button><Link to="/">Restart</Link></button> 
     </div>
 
     

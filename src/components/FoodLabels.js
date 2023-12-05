@@ -10,7 +10,7 @@ import expimg from '../images/exp.jpg';
 
     const [showFinal, setFinal] = useState(false);
     const [score, setScore] = useState(0);
-    const [currentQuestion, setCurrentQuestion] = useState(2);
+    const [currentQuestion, setCurrentQuestion] = useState(0);
 
     const questions = [
         {
@@ -96,7 +96,7 @@ import expimg from '../images/exp.jpg';
         <div className="card card-body">
         <h6>Use By:</h6>
         You can cook and eat food until midnight on the use-by date shown on a product, but not after. It is the last date recommended for the use of the product while at peak quality.
-        <img src={usebyimg} class="rounded imgsize" alt=" use by image" />
+        <img src={usebyimg} class="rounded imgsize" alt=" use by" />
         </div>
         </div>
         {/* Sell by */}
@@ -104,7 +104,7 @@ import expimg from '../images/exp.jpg';
         <div className="card card-body mt-4">
         <h6>Sell By:</h6>
         Tells the store how long to display the product for sale for inventory management.
-        <img src={sellbyimg} class="rounded imgsize" alt=" sell by image" />
+        <img src={sellbyimg} class="rounded imgsize" alt=" sell by" />
         </div>
         </div>
         {/* Best Before */}
@@ -112,7 +112,7 @@ import expimg from '../images/exp.jpg';
         <div className="card card-body mt-4">
         <h6>Best Before (BBF):</h6>
         Indicates when a product will be of best flavor or quality. 
-        <img src={bbfimg} class="rounded imgsize" alt=" bbf image" />
+        <img src={bbfimg} class="rounded imgsize" alt=" bbf" />
         </div>
         </div>
         {/* Exp  */}
@@ -120,7 +120,7 @@ import expimg from '../images/exp.jpg';
         <div className="card card-body mt-4">
         <h6>Expiration Date (Exp):</h6>
         The date after which a product should not be sold or used because of an expected decline in quality or effectiveness. 
-        <img src={expimg} class="rounded imgsize"alt=" exp image" />
+        <img src={expimg} class="rounded imgsize"alt=" exp" />
         </div>
         </div>
         <div className='boxx'>
