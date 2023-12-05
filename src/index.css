@@ -61,14 +61,20 @@ code {
   background: transparent;
   border: 0;
   color:black;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: arcadeclassic;
+  margin-top: -20px;
 }
 
 .custom-class {
   color: red;
 }
 
+.EcoLogo {
+  width: 25rem;
+  margin-top:50px;
+  margin-bottom:-40px;
+}
 
   /* button {
     background-color: #a3ff8f; 
