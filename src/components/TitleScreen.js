@@ -1,5 +1,6 @@
 import React from 'react';
 import {Routes, Route, useNavigate} from 'react-router-dom';
+import EcoLogo from '../../src/images/EcoQuest.png'
 
  const About = () => {
   const navigate = useNavigate();
@@ -10,8 +11,7 @@ import {Routes, Route, useNavigate} from 'react-router-dom';
   };
   return (
     <div className="container-fluid title">
-      <h2>Game</h2>    
-       <h1>Name</h1>
+      <img src={EcoLogo} className="EcoLogo" alt='EcoLogo'/>
         <p>
           
         </p>
