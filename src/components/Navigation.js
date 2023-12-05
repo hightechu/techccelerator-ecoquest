@@ -20,7 +20,7 @@ const Navigation = () => {
                         <a className="nav-link" href="/about">Importance</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Support us</a>
+                        <a className="nav-link" href="/SupportUs">Support us</a>
                     </li>
 
                     

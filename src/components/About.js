@@ -26,7 +26,7 @@ import throwing from '../images/throwfood.jpg';
             </div>
             </div>
             <div class="carousel-item active">
-            <img src={throwing} class="d-block w-75 imgsize" alt=" starve"/>
+            <img src={throwing} class="d-block w-75 imgsize" alt="children"/>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="display-4 text-white text-center">Did you know</h5>
               <p class="psizes">Despite the outrageous amount of food waste, over 800 million people are undernourished. We have enough food to feed everyone, but we cannot distribute it equally.</p>
