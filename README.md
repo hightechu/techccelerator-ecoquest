@@ -1,4 +1,4 @@
-# HighTechU Techccelerator React App
+# EcoQuest
 
 ## About
 
